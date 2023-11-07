@@ -1,0 +1,29 @@
+#div1, #div2{
+    float: left;
+    width: 100px;
+    height: 35px;
+    margin: 10px;
+    padding: 10px;
+    border: 2px solid rgb(246, 255, 0);
+    border-radius: 7px;
+    background-color: rgba(240, 248, 255, 0.529);
+}
+
+body{
+    text-align: center;
+    background-color: rgb(255, 0, 0);
+    font-size: x-large;
+    font-family: Magic;
+    color: rgb(246, 255, 0);
+}
+
+@font-face {
+    font-family: Magic;
+    src: url(Pokemon_Hollow.ttf);
+}
+
+.border{
+    border: 2px solid rgb(0, 0, 0);
+    background-color: rgb(205, 6, 6);
+    border-radius: 7px;
+}
